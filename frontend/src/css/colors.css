@@ -1,0 +1,53 @@
+/* 🌞 Light Mode */
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-bg: #f9fafb;
+    --color-surface: #ffffff;
+    --color-text: #1e293b;
+    --color-subtext: #475569;
+
+    /* Ocean tones */
+    --color-ocean-100: #e0f7fa;
+    --color-ocean-200: #b2ebf2;
+    --color-ocean-300: #4dd0e1;
+    --color-ocean-400: #00acc1;
+    --color-ocean-500: #00838f;
+
+    /* Hazard tones */
+    --color-warning: #f59e0b;
+    --color-danger: #dc2626;
+    --color-success: #16a34a;
+    --color-info: #2563eb;
+
+    /* Neutrals */
+    --color-border: #e2e8f0;
+    --color-muted: #94a3b8;
+  }
+}
+
+/* 🌑 Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0f172a;
+    --color-surface: #1e293b;
+    --color-text: #f1f5f9;
+    --color-subtext: #cbd5e1;
+
+    /* Ocean tones */
+    --color-ocean-100: #0d3b66;
+    --color-ocean-200: #144e73;
+    --color-ocean-300: #1e6091;
+    --color-ocean-400: #287094;
+    --color-ocean-500: #3a86ff;
+
+    /* Hazard tones */
+    --color-warning: #fbbf24;
+    --color-danger: #f87171;
+    --color-success: #4ade80;
+    --color-info: #60a5fa;
+
+    /* Neutrals */
+    --color-border: #334155;
+    --color-muted: #64748b;
+  }
+}
